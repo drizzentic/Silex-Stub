@@ -17,8 +17,8 @@ There are several **extensions** ready to be used:
 + Forms
 
 To use Monolog you have to uncomment the related code on _app.php_,
-and then magically _log.txt_ will appear in the _log_ folder when running the app.
-Put your templates in _views_, and your images, css, scripts, and whatever other assets you have in _assets_.
+and then magically _log/log.txt_ will appear when running the app.  
+Put your templates in _views/_, and your images, css, scripts, etc. in _assets/_.  
 There's a _cache/_ directory if you want to activate twig caching.
 
 As you can see, there are several _.htaccess_ files: besides root directory,
