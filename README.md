@@ -1,12 +1,14 @@
 #Silex Stub
 
 This is something I made while experimenting with [Silex](https://github.com/fabpot/Silex) to understand how it works.
+
 The idea is to have something ready to copypaste when starting a new project.
 
-##What's inside
+###What's inside?
 
 A Silex Application, obviously: _index.php_ starts the app returned by _src/app.php_.
-There are several *extensions* ready to be used:
+There are several **extensions** ready to be used:
+
 + Twig
 + UrlGenerator
 + Monolog
@@ -16,15 +18,16 @@ There are several *extensions* ready to be used:
 
 To use Monolog you have to uncomment the related code on _app.php_,
 and then magically _log.txt_ will appear in the _log_ folder when running the app.
-Put your templates under _views_, and your images, css, scripts, and whatever other assets you have under _assets_.
+Put your templates in _views_, and your images, css, scripts, and whatever other assets you have in _assets_.
 There's a _cache/_ directory if you want to activate twig caching.
 
-As you can see, there are several _.htaccess_ files: only _/_, _assets/_ and _dbadmin/_ are accessible.
+As you can see, there are several _.htaccess_ files: besides root directory,
+only _assets/_ and _dbadmin/_ are accessible.
 
-Oh yes, the database! Under _db/_ lies an empty **SQLite** database, while _dbadmin/_ folder contains
+And lastly, the database. In _db/_ lies an empty **SQLite** database, while _dbadmin/_ folder contains
 [phpLiteAdmin](http://phpliteadmin.googlecode.com) v 1.8.6 to ease db administration.
 
-##Config
+###Configuration
 
 To start developing you can just copypaste it and start working on _src/app.php_, but there are a few things
 to know:
