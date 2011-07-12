@@ -1,3 +1,21 @@
 [submodule "vendor/Silex"]
 	path = vendor/Silex
 	url = git://github.com/fabpot/Silex.git
+[submodule "vendor/monolog"]
+	path = vendor/monolog
+	url = git://github.com/Seldaek/monolog.git
+[submodule "vendor/twig"]
+	path = vendor/twig
+	url = git://github.com/fabpot/Twig.git
+[submodule "vendor/doctrine-common"]
+	path = vendor/doctrine-common
+	url = git://github.com/doctrine/common.git
+[submodule "vendor/doctrine-dbal"]
+	path = vendor/doctrine-dbal
+	url = git://github.com/doctrine/dbal.git
+[submodule "vendor/Symfony/Component/Form"]
+	path = vendor/Symfony/Component/Form
+	url = git://github.com/symfony/Form.git
+[submodule "vendor/Symfony/Component/Validator"]
+	path = vendor/Symfony/Component/Validator
+	url = git://github.com/symfony/Validator.git
