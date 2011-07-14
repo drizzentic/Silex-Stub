@@ -13,7 +13,7 @@ return array(
   'db.host'     => '',
   'db.user'     => '',
   'db.password' => '',
-  'db.path'     => __DIR__.'/../db/app.db',
+  'db.path'     => __DIR__.'/../db/app.sqlite',
 
     
 // === END OF CONFIG
