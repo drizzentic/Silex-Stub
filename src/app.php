@@ -59,7 +59,7 @@ $app->register(new Silex\Extension\DoctrineExtension(), array(
     'path'        => $config['db.path'],
   ),
   'db.dbal.class_path'    => __DIR__.'/../vendor/doctrine-dbal/lib',
-  'db.common.class_path'  => __DIR__.'/../vendor/doctrine-common/lib',
+  'db.common.class_path'  => __DIR__.'/../vendor/doctrine-dbal/lib/vendor/doctrine-common/lib',
 ));
 
 $app->register(new Silex\Extension\ValidatorExtension(), array());
