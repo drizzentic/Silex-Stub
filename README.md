@@ -30,4 +30,3 @@ only _assets/_ is accessible.
 There is a config file: _config/config.php_. This is where you can put extensions parameters
 and other general stuff you will need to keep indipendent from application.
 When deploying your app just edit this file.
-
