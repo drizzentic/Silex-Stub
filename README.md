@@ -1,3 +1,5 @@
+**!!! this stuff is very outdated!** I'll probably write another version, but not before a stable Silex release is out.
+
 #Silex Stub
 
 This is something I made while experimenting with [Silex](https://github.com/fabpot/Silex) to understand how it works.
